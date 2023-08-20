@@ -66,7 +66,7 @@ function Quotes() {
               <input
                 type="checkbox"
                 name="tags"
-                value={t} 
+                value={t}
                 checked={selectedOptions.includes(t.value)}
                 onChange={handleOptionChange}
               />
@@ -74,7 +74,7 @@ function Quotes() {
             </label>
           ))}
         </div>
-      )} 
+      )}
       {/* list of data  */}
 
       {filterByTags(data, selectedOptions)?.map((f) => (
